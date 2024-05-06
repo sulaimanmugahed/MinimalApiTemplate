@@ -89,9 +89,9 @@ The core is independent of external frameworks and databases. This allows you to
 The core domain logic can be reused across different applications, promoting code sharing and reducing redundancy.
 
 ## Template Features 
-1. User Auhentication and Authorization using Microsoft identity and jwt
+1. User Auhentication and Authorization using Microsoft identity and jwt bearer token
 2. Repository Pattern and UnitOfWork 
-3. SoftDelete and Aduince to Tracking entities changes
+3. Entity Tracking and SoftDelete technique 
 4. logging system with Serilog library
 5. Swagger Client and Documentation
 6. API Versioning
