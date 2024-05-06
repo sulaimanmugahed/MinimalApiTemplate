@@ -28,8 +28,7 @@ dotnet new install .
 4. check if the template has been installed successfully:
 
 ```
-dotnet new list
-          
+dotnet new list         
 ```
  `You should find the name <c-mini-api> which is the short name of the template`
  
@@ -40,7 +39,6 @@ dotnet new list
 ```
 dotnet new c-mini-api -o YourProjectName
 ```
-
 
 ## Architecture Overview
 
