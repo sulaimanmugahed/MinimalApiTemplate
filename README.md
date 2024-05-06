@@ -20,12 +20,12 @@ git clone https://github.com/sulaimanmugahed/MinimalApiTemplate.git
 cd <pathToRepo>/MinimalApiTemplate/
 ```
 
-3. Now to install the template locally:
+3. Now you need to install the template locally by run:
 
 ```
 dotnet new install .
 ```
-4. To chick if the template has been installed successfully:
+4. check if the template has been installed successfully:
 
 ```
 dotnet new list
