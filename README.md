@@ -28,7 +28,7 @@ The template directory is organized as follows:
 |       ├── MinimalApiTemplate.Identity
 |       ├── MinimalApiTemplate.Persistence
 |
-|    ├── Presentation
+|   ├── Presentation
 |       ├── MinimalApiTemplate.Api
 |
 ├── test
@@ -36,7 +36,7 @@ The template directory is organized as follows:
 ```
 
 
-## Features
+## Advantages of the architecture 
 
 1. **Loose Coupling**:
 Components are designed to be independent of each other. This allows for easier changes and maintenance without affecting other parts of the application.
