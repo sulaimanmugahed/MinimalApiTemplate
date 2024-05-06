@@ -1,0 +1,17 @@
+{
+  
+  "author": "Sulaiman Mugahed",
+  "classifications": [ "Asp.Net", "Minimal", "API", "Clean Architecture" ],
+  "identity": "CleanMinimalApi.Template",
+  "name": "Clean Minimal API",
+  "description":"Simple template to start new clean architecture application with minimal api and .Net 8",
+  "defaultName": "CleanMinimalAPI",
+  "shortName": "c-mini-api",
+  "preferNameDirectory": true,
+  "sourceName": "MinimalApiTemplate",
+  "groupIdentity":"CleanMinimalAPI",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
