@@ -92,10 +92,10 @@ The core domain logic can be reused across different applications, promoting cod
 1. User Auhentication and Authorization using Microsoft identity and jwt bearer token
 2. Repository Pattern and UnitOfWork 
 3. Entity Tracking and SoftDelete technique 
-4. logging system with Serilog library
+4. CQRS with MediatR
 5. Swagger Client and Documentation
-6. API Versioning
-7. CQRS with MediatR 
+6. Endpoints Versioning
+7. logging system with Serilog library
 8. Custom Endpoints Filter
 9. Fluent Validation
 
