@@ -3,6 +3,45 @@
 
 This project is a template for creating a new minimal API project in .NET Core 8, following the principles of Clean Architecture. It provides a modular and maintainable codebase by enforcing a clear separation of concerns and independence of dependencies.
 
+
+## Getting Started
+
+To use this template, follow these steps:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/sulaimanmugahed/MinimalApiTemplate.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd <pathToRepo>/MinimalApiTemplate/
+```
+
+3. Now to install the template locally:
+
+```
+dotnet new install .
+```
+4. To chick if the template has been installed successfully:
+
+```
+dotnet new list
+          
+```
+ `You should find the name <c-mini-api> which is the short name of the template`
+ 
+
+
+5. Finally create your first application with the template:
+
+```
+dotnet new c-mini-api -o YourProjectName
+```
+
+
 ## Architecture Overview
 
 The template Architecture pattern divides the codebase into the following layers:
@@ -49,42 +88,17 @@ The core is independent of external frameworks and databases. This allows you to
 5. **Reusability**:
 The core domain logic can be reused across different applications, promoting code sharing and reducing redundancy.
 
+## Template Features 
+User Auhentication and Authorization using Microsoft identity and jwt
+Repository Pattern and UnitOfWork 
+SoftDelete and Aduince to Tracking entities changes
+logging system with Serilog library
+Swagger Client and Documentation
+API Versioning
+CQRS with MediatR 
+Custom Endpoints Filter
+Fluent Validation
 
-## Getting Started
-
-To use this template, follow these steps:
-
-1. Clone the repository:
-
-```
-git clone https://github.com/sulaimanmugahed/MinimalApiTemplate.git
-```
-
-2. Navigate to the project directory:
-
-```
-cd <pathToRepo>/MinimalApiTemplate/
-```
-
-3. Now to install the template locally:
-
-```
-dotnet new install .
-```
-4. To chick if the template has been installed successfully:
-
-```
-dotnet new list
-          
-```
- `You should find the name <c-mini-api> which is the short name of the template`
  
-
-
-5. Finally create your first application with the template:
-
-```
-dotnet new c-mini-api -o YourProjectName
-```
-
+ 
 
