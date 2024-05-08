@@ -69,6 +69,7 @@ The template directory is organized as follows:
 |       ├── MinimalApiTemplate.Api
 |
 ├── test
+    ├── MinimalApiTemplate.Application.UnitTest
 
 ```
 
@@ -96,6 +97,9 @@ The core domain logic can be reused across different applications, promoting cod
 7. logging system with Serilog library
 8. Custom Endpoints Filter
 9. Fluent Validation
+10. UnitTest with xUnit , moq, and Fluent Assertion
+
+    
 
  
  
