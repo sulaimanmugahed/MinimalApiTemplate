@@ -1,7 +1,13 @@
 
 # Minimal API Template
 
-This project is a template for creating a new minimal API project in .NET Core 8, following the principles of Clean Architecture. It provides a modular and maintainable codebase by enforcing a clear separation of concerns and independence of dependencies.
+Setting up a new project can be a drag because you always have to deal
+with dependencies and package configurations. This project offers a handy
+template to kickstart your development. Built for .NET Core 8, it follows the
+principles of Clean Architecture to keep your codebase organized and easy 
+to manage. By separating different parts of the project and making 
+dependencies independent, this template makes starting new projects
+a breeze, saving you valuable time on setup.
 
 
 ## Getting Started
