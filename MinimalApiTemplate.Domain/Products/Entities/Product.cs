@@ -7,6 +7,9 @@ namespace MinimalApiTemplate.Domain.Products.Entities;
 
 public sealed class Product: BaseEntity, IAuditable, ISoftDeletable
 {
+    // i add this constractor to generate fakedata with bogus
+    private Product() { }
+
     private Product(ProductId id, string name, string description, decimal price) 
     {
         Id = id;
@@ -22,7 +25,6 @@ public sealed class Product: BaseEntity, IAuditable, ISoftDeletable
     public decimal Price { get; private set; }
  
 
-
     public static Product Create(string name, string description, decimal price)
     {
         var product = new Product(new ProductId(Guid.NewGuid()), name, description, price);
@@ -36,7 +38,6 @@ public sealed class Product: BaseEntity, IAuditable, ISoftDeletable
         Price = price;
     }
 
-  
 
     public Guid CreatedBy { get; set; }
     public DateTime Created { get; set; }

@@ -6,7 +6,7 @@ namespace MinimalApiTemplate.Application.Features.Products.Commands.CreateProduc
 
 public class CreateProductCommand : IRequest<BaseResult<string>>, IProductCommand
 {
-    public string Name { get; set; } = string.Empty;
-    public string Description { get; set; } = string.Empty;
+    public string Name { get; set; }
+    public string Description { get; set; }
     public decimal Price { get; set; }
 }
